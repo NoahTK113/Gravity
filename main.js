@@ -800,7 +800,7 @@
       ctx.moveTo(cx + rpx, cy);
       ctx.arc(cx, cy, rpx, 0, Math.PI * 2);
     }
-    ctx.fillStyle = '#ff8c00';
+    ctx.fillStyle = '#4488ff';
     ctx.fill();
 
     if (selectedId) {
@@ -1108,3 +1108,4 @@
     requestAnimationFrame(tick);
   })();
 })();
+
